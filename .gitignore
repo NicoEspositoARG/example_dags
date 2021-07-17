@@ -1,0 +1,79 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+.vscode
+*.ipynb
+
+# Distribution / packaging
+.Python
+# env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Django stuff:
+*.log
+*.log.[0-9]
+
+local_settings.py
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# PyBuilder
+target/
+
+# dotenv
+.env
+
+# virtualenv
+.venv
+env/
+venv/
+ENV/
+# env
+
+# mypy
+.mypy_cache/
+.DS_Store
+
+# Trashbin
+/.Trash-1000
+
+# VSCode
+
+# *.code-workspace
+# onsaWorkSpace.code-workspace
+
+airflow/airflow.db
+*.db*
+*.pid
+*.log*
+logs/
+# logs
+# /logs/scheduler/latest/
+# airflow/logs/scheduler/latest
+# logs/scheduler/latest
