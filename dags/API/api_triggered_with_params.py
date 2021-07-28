@@ -1,3 +1,4 @@
+# see https://stackoverflow.com/a/68561214/10569220
 from airflow import DAG
 from airflow.models.baseoperator import chain
 from airflow.operators.python import PythonOperator
@@ -15,7 +16,7 @@ dag = DAG(
     default_args={"owner": "airflow"},
     start_date=days_ago(1),
     schedule_interval="@once",
-    tags=["example_dags"],
+    tags=["example_dags", "API"],
     params={"param_at_dag_level": "param_66"},
     catchup=False,
 )
