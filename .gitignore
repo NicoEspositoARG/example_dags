@@ -66,9 +66,8 @@ ENV/
 # VSCode
 
 # *.code-workspace
-# onsaWorkSpace.code-workspace
 
-airflow/airflow.db
+airflow.cfg
 *.db*
 *.pid
 *.log*
