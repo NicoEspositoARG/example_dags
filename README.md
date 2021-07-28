@@ -31,6 +31,6 @@ This can be done using VSCode by following these steps:
 }
 ```
 
-- Open any DAG from this repo and start debugging pressing by F5
+- Open any DAG from this repo and start by debugging pressing F5
 
 - **Look for StackOverflow reference link in each DAG docs**
