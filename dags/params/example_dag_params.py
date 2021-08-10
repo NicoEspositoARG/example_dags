@@ -5,11 +5,9 @@ from airflow.models import BaseOperator
 from airflow.operators.python import PythonOperator
 from airflow.operators.bash import BashOperator
 from airflow.utils.dates import days_ago
-from airflow.utils.decorators import apply_defaults
 
 
 class CustomDummyOperator(BaseOperator):
-    @apply_defaults
     def __init__(self, custom_arg: str = "default", *args, **kwargs) -> None:
         self.custom_arg = custom_arg
         super(CustomDummyOperator, self).__init__(*args, **kwargs)
