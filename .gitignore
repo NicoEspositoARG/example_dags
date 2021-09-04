@@ -72,6 +72,8 @@ airflow.cfg
 *.pid
 *.log*
 logs/
+ignored/
+webserver_config.py
 # logs
 # /logs/scheduler/latest/
 # airflow/logs/scheduler/latest
