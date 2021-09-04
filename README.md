@@ -1,4 +1,4 @@
-# Collection of demo DAGs exploring Apache Airflow
+# Collection of DAGs exploring Apache Airflow
 
 To easily understand the examples and follow along with the code,
 it may be helpful to **debug the DAGs execution** and take advantage of **IntelliSense** to access the _Airflow_ documentation and implementation.
